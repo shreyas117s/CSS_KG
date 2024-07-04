@@ -1,0 +1,4 @@
+• Nested Targeting: Styles elements nested within a specified element.
+• Syntax: Separate selectors with spaces.
+• Hierarchy-Based: Allows styling based on the hierarchical structure of HTML.
+• Specific Styling: Facilitates more targeted and specific styling of elements.

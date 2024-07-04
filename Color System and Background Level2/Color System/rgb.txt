@@ -1,0 +1,25 @@
+
+RGB means Red Green Blue
+
+all can create by using this 3 colors combination
+
+Color System (Color Theory)
+
+• RGB Model: Creates colors by mixing Red (R), 
+Green (G), and Blue (B) light sources.
+• Additive Model: More light means increased 
+brightness.
+• Primary Colors: R, G, and B are the 
+foundational colors.
+• White & Black: All combined yield white; 
+absence equals black.
+• Color Depth: Allows for millions of color 
+variations.
+
+
+
+
+Three Channels: Consists of Red (R), Green (G), and Blue (B)
+channels to create a variety of colors.
+• Syntax: Utilized as rgb(r, g, b) where r, g, and b are values 
+between 0 and 255. 
