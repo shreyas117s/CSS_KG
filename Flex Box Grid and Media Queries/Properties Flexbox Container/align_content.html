@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Properties:Flexbox container(align-content)</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      #heading {
+        background-color: bisque;
+        text-align: center;
+      }
+      #container {
+        background-color: navajowhite;
+        border: 2px solid black;
+        height: 400px;
+        width: 700px;
+        margin: 20px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        align-content: start;
+      }
+      .box {
+        border: 1px solid black;
+        height: 120px;
+        width: 120px;
+        margin: 5px;
+        font-weight: bold;
+      }
+      #box1 {
+        background-color: fuchsia;
+      }
+      #box2 {
+        background-color: brown;
+      }
+      #box3 {
+        background-color: darkgray;
+      }
+      #box4 {
+        background-color: yellow;
+      }
+      #box5{
+        background-color: blueviolet;
+      }
+      #box6{
+        background-color: darkmagenta;
+      }
+      #box7{
+        background-color: deeppink;
+      }
+      #box8{
+        background-color: violet;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="heading">Flex Container(align-content)</h1>
+    <div id="container">
+      <div id="box1" class="box">Flex Item1</div>
+      <div id="box2" class="box">Flex Item2</div>
+      <div id="box3" class="box">Flex Item3</div>
+      <div id="box4" class="box">Flex Item4</div>
+      <div id="box5" class="box">Flex Item5</div>
+      <div id="box6" class="box">Flex Item6</div>
+      <div id="box7" class="box">Flex Item7</div>
+      <div id="box8" class="box">Flex Item8</div>
+    </div>
+  </body>
+</html>
